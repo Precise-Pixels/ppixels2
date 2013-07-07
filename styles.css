@@ -1,0 +1,252 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+body {
+  min-width: 240px;
+  background: #FFF;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+ul ul {
+  padding-left: 20px;
+}
+
+img {
+  border: 0;
+}
+
+.content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3%;
+  overflow: hidden;
+}
+
+.content-section {
+  margin-bottom: 3%;
+  overflow: hidden;
+}
+
+.content-section img {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .content-section img {
+    width: 65%;
+  }
+}
+@font-face {
+  font-family: 'Sosa';
+  src: url("fonts/sosa-regular-webfont.eot");
+  src: url("fonts/sosa-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/sosa-regular-webfont.woff") format("woff"), url("fonts/sosa-regular-webfont.ttf") format("truetype"), url("fonts/sosa-regular-webfont.svg#sosa-regular-webfont") format("svg");
+}
+
+body {
+  color: #222;
+  font-family: "Roboto Slab", Georgia, serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+h2 {
+  background: #98dce2;
+  padding: 10px;
+  display: inline-block;
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 19px;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 19px;
+  font-weight: 300;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  margin: 20px 0;
+}
+
+a {
+  color: #222222;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.quote {
+  font-size: 19px;
+  font-style: italic;
+}
+
+.half {
+  width: 44%;
+  padding: 0 3%;
+  float: left;
+}
+
+.third {
+  width: 94%;
+  padding: 0 3%;
+  float: left;
+}
+
+.quarter {
+  width: 44%;
+  padding: 0 3%;
+  float: left;
+}
+
+@media (min-width: 640px) {
+  .third {
+    width: 27.33%;
+    padding: 0 3%;
+  }
+
+  .quarter {
+    width: 19%;
+    padding: 0 3%;
+  }
+}
+nav {
+  background: #98dce2;
+  overflow: hidden;
+}
+
+header {
+  width: 94%;
+  background: #1e2024 url(images/bg.jpg);
+  background-size: cover;
+  padding: 8% 3% 6%;
+  clear: both;
+  overflow: hidden;
+  color: #FFF;
+}
+
+#logo img {
+  width: 100%;
+  max-width: 600px;
+}
+
+footer {
+  background: #eeeeee;
+  padding: 3%;
+  clear: both;
+  overflow: hidden;
+}
+
+footer p {
+  margin-top: 0;
+}
+
+#social-links {
+  width: 50px;
+  margin: 20px auto 0;
+}
+
+#social-links div {
+  width: 20px;
+  height: 20px;
+  background-image: url(images/social_sprite.png);
+  border-radius: 20px;
+  float: left;
+  text-indent: -9999px;
+}
+
+#social-links_facebook {
+  margin-right: 5px;
+}
+
+#social-links_github {
+  background-position: 0 20px;
+  margin-left: 5px;
+}
+
+.button {
+  background: #98dce2;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 600;
+  -webkit-transition: background-color 0.3s;
+  -moz-transition: background-color 0.3s;
+  -ms-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #222222;
+  color: #98dce2;
+}
+
+.button span {
+  display: block;
+}
+
+.box-wrapper {
+  overflow: hidden;
+}
+
+.box {
+  background: #eeeeee;
+  display: inline-block;
+  margin-bottom: 3%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #222222;
+}
+
+a .box:hover {
+  background: #dddddd;
+}
+
+.thumb {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 200px;
+}
+
+@media (min-width: 640px) {
+  .box-wrapper {
+    background: #eeeeee;
+  }
+
+  .box {
+    margin-bottom: 0;
+  }
+}
+.icon {
+  font-family: 'Sosa';
+  font-size: 120px;
+}
+
+.icon_medium {
+  font-size: 32px;
+}

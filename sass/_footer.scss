@@ -1,0 +1,34 @@
+//===FOOTER===//
+footer {
+	background: $lgrey;
+	padding: 3%;
+	clear: both;
+	overflow: hidden;
+}
+
+footer p {
+	margin-top: 0;
+}
+
+#social-links {
+	width: 50px;
+	margin: 20px auto 0;
+}
+
+#social-links div {
+	width: 20px;
+	height: 20px;
+	background-image: url(images/social_sprite.png);
+	border-radius: 20px;
+	float: left;
+	text-indent: -9999px;
+}
+
+#social-links_facebook {
+	margin-right: 5px;
+}
+
+#social-links_github {
+	background-position: 0 20px;
+	margin-left: 5px;
+}

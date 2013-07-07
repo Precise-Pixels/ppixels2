@@ -1,0 +1,15 @@
+@mixin transition($value) {
+	@if length($value) == 1 {
+		-webkit-transition: $value .3s;
+		-moz-transition: $value .3s;
+		-ms-transition: $value .3s;
+		-o-transition: $value .3s;
+		transition: $value .3s;
+	} @elseif length($value) == 2 {
+		-webkit-transition: nth($value, 1) .3s, nth($value, 2) .3s;
+		-moz-transition: nth($value, 1) .3s, nth($value, 2) .3s;
+		-ms-transition: nth($value, 1) .3s, nth($value, 2) .3s;
+		-o-transition: nth($value, 1) .3s, nth($value, 2) .3s;
+		transition: nth($value, 1) .3s, nth($value, 2) .3s;
+	}
+}

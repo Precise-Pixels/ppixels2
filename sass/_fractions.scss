@@ -1,0 +1,30 @@
+//===FRACTIONS===//
+.half {
+	width: 44%;
+	padding: 0 3%;
+	float: left;
+}
+
+.third {
+	width: 94%;
+	padding: 0 3%;
+	float: left;
+}
+
+.quarter {
+	width: 44%;
+	padding: 0 3%;
+	float: left;
+}
+
+@media (min-width: 640px) {
+	.third {
+		width: 27.33%;
+		padding: 0 3%;
+	}
+
+	.quarter {
+		width: 19%;
+		padding: 0 3%;
+	}
+}

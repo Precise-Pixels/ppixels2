@@ -1,0 +1,19 @@
+//===BUTTONS===//
+.button {
+	background: $blue;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	color: #FFF;
+	text-align: center;
+	font-weight: 600;
+	@include transition(background-color);
+}
+
+.button:hover {
+	background-color: $dgrey;
+	color: $blue;
+}
+
+.button span {
+	display: block;
+}

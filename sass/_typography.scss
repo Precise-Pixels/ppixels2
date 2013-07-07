@@ -1,0 +1,63 @@
+//===TYPOGRAPHY===//
+@font-face {
+	font-family: 'Sosa';
+	src: url('fonts/sosa-regular-webfont.eot');
+	src: url('fonts/sosa-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/sosa-regular-webfont.woff') format('woff'),
+		 url('fonts/sosa-regular-webfont.ttf') format('truetype'),
+		 url('fonts/sosa-regular-webfont.svg#sosa-regular-webfont') format('svg');
+}
+
+body {
+	color: #222;
+	font-family: "Roboto Slab", Georgia, serif;
+	font-size: 16px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+h2 {
+	background: $blue;
+	padding: 10px;
+	display: inline-block;
+	color: #FFF;
+	font-size: 32px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 19px;
+	font-weight: 400;
+}
+
+h4 {
+	font-size: 19px;
+	font-weight: 300;
+}
+
+p {
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 28px;
+	margin: 20px 0;
+}
+
+a {
+	color: $dgrey;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.quote {
+	font-size: 19px;
+	font-style: italic;
+}

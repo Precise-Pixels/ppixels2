@@ -1,0 +1,47 @@
+//===BASE===//
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+	display: block;
+}
+
+body {
+	min-width: 240px;
+	background: #FFF;
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+ul ul {
+	padding-left: 20px;
+}
+
+img {
+	border: 0;
+}
+
+.content-wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 3%;
+	overflow: hidden;
+}
+
+.content-section {
+	margin-bottom: 3%;
+	overflow: hidden;
+}
+
+.content-section img {
+	width: 100%;
+}
+
+@media (min-width: 640px) {
+	.content-section img {
+		width: 65%;
+	}
+}

@@ -1,0 +1,33 @@
+//===BOXES===//
+.box-wrapper {
+	overflow: hidden;
+}
+
+.box {
+	background: $lgrey;
+	display: inline-block;
+	margin-bottom: 3%;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	color: $dgrey;
+}
+
+a .box:hover {
+	background: $mgrey;
+}
+
+.thumb {
+	width: 100%;
+	max-width: 200px;
+	border-radius: 200px;
+}
+
+@media (min-width: 640px) {
+	.box-wrapper {
+		background: $lgrey;
+	}
+
+	.box {
+		margin-bottom: 0;
+	}
+}
