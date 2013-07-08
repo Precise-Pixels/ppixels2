@@ -227,6 +227,11 @@ footer p {
   padding-top: 12px;
   padding-bottom: 12px;
   color: #222222;
+  -webkit-transition: background-color 0.3s;
+  -moz-transition: background-color 0.3s;
+  -ms-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
 }
 
 a .box:hover {
