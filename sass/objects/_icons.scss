@@ -1,10 +1,62 @@
 //===ICONS===//
 .icon {
-	font-family: 'Sosa';
-	font-size: 120px;
-	font-weight: 400;
+	background: url(images/icon-sprite.png) no-repeat;
+	margin: 0 auto;
+	display: block;
+	text-indent: -9999px;
+}
+
+.icon_large {
+	width: 120px;
+	height: 120px;
 }
 
 .icon_medium {
-	font-size: 32px;
+	width: 32px;
+	height: 32px;
+
+}
+
+.ff {
+	.icon {
+		background: none;
+		font-family: 'Sosa';
+		font-size: 120px;
+		line-height: 120px;
+		font-weight: 400;
+		text-indent: 0;
+	}
+
+	.icon_medium {
+		font-size: 32px;
+		line-height: 32px;
+	}
+}
+
+.icon_about {
+	background-position: center 5px;
+}
+
+.icon_work {
+	background-position: center -115px;
+}
+
+.icon_contact {
+	background-position: center -235px;
+}
+
+.icon_left {
+	background-position: center -358px;
+}
+
+.icon_right {
+	background-position: center -390px;
+}
+
+.icon_left_disabled {
+	background-position: center -422px;
+}
+
+.icon_right_disabled {
+	background-position: center -454px;
 }

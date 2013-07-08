@@ -8,7 +8,7 @@
 
 	<header>
 		<div class="content-wrapper">
-			<span class="icon">Ý</span>
+			<span class="icon icon_large icon_about">Ý</span>
 			<h1>About Us</h1>
 		</div>
 	</header>

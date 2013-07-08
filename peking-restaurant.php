@@ -8,7 +8,7 @@
 
 	<header>
 		<div class="content-wrapper">
-			<span class="icon">7</span>
+			<span class="icon icon_large icon_work">7</span>
 			<h1>Peking Restaurant</h1>
 		</div>
 	</header>
@@ -21,8 +21,8 @@
 		</div>
 
 		<div class="content-section">
-			<a href="holland-transfer-solutions"><div class="button half"><div class="icon icon_medium">‹</div></div></a>
-			<div class="box half"><div class="icon icon_medium">›</div></div>
+			<a href="holland-transfer-solutions"><div class="button half"><div class="icon icon_medium icon_left">‹</div></div></a>
+			<div class="box half"><div class="icon icon_medium icon_right_disabled">›</div></div>
 		</div>
 	</div>
 

@@ -8,7 +8,7 @@
 
 	<header>
 		<div class="content-wrapper">
-			<span class="icon">7</span>
+			<span class="icon icon_large icon_work">7</span>
 			<h1>Precise Pixels v2</h1>
 		</div>
 	</header>
@@ -21,8 +21,8 @@
 		</div>
 
 		<div class="content-section">
-			<div class="box half"><div class="icon icon_medium">‹</div></div>
-			<a href="delhi-kitchen"><div class="button half"><div class="icon icon_medium">›</div></div></a>
+			<div class="box half"><div class="icon icon_medium icon_left_disabled">‹</div></div>
+			<a href="delhi-kitchen"><div class="button half"><div class="icon icon_medium icon_right">›</div></div></a>
 		</div>
 	</div>
 

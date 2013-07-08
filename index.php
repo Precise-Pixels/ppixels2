@@ -25,19 +25,19 @@
 			<a href="about-us">
 				<div class="button third">
 					<span>The Team</span>
-					<span class="icon">Ý</span>
+					<span class="icon icon_large icon_about">Ý</span>
 				</div>
 			</a>
 			<a href="our-work">
 				<div class="button third">
 					<span>Our Work</span>
-					<span class="icon">7</span>
+					<span class="icon icon_large icon_work">7</span>
 				</div>
 			</a>
 			<a href="contact-us">
 				<div class="button third">
 					<span>Contact</span>
-					<span class="icon">h</span>
+					<span class="icon icon_large icon_contact">h</span>
 				</div>
 			</a>
 		</div>
