@@ -25,7 +25,7 @@
 			<a href="about-us">
 				<div class="button third">
 					<span>The Team</span>
-					<span class="icon">Ü</span>
+					<span class="icon">Ý</span>
 				</div>
 			</a>
 			<a href="our-work">

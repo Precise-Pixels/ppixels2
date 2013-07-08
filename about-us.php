@@ -8,7 +8,7 @@
 
 	<header>
 		<div class="content-wrapper">
-			<span class="icon">Ü</span>
+			<span class="icon">Ý</span>
 			<h1>About Us</h1>
 		</div>
 	</header>
