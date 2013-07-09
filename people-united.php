@@ -16,6 +16,7 @@
 	<div class="content-wrapper">
 		<div class="content-section">
 			<img src="images/work/people-united-device.png" alt="People United"/>
+			<a href="http://peopleunited.org.uk" target="_blank" class="our-work-link"><div class="icon icon_medium icon_link">ä</div> http://peopleunited.org.uk</a>
 			<h3>Title text</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, facilis, ut, quod sunt commodi aliquid reiciendis aperiam architecto est rerum iure rem quia nesciunt optio sequi eveniet earum ad distinctio?</p>
 		</div>

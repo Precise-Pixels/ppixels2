@@ -216,6 +216,11 @@ footer p {
   display: block;
 }
 
+.our-work-link {
+  margin: 3% 0;
+  display: block;
+}
+
 .box-wrapper {
   overflow: hidden;
 }
@@ -309,4 +314,8 @@ a .box:hover {
 
 .icon_right_disabled {
   background-position: center -454px;
+}
+
+.icon_link {
+  background-position: center -486px;
 }
