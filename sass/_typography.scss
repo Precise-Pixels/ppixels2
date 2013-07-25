@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-	font-size: 32px;
+	font-size: 24px;
 	font-weight: 100;
 	text-transform: uppercase;
 }
@@ -26,18 +26,18 @@ h2 {
 	padding: 10px;
 	display: inline-block;
 	color: #FFF;
-	font-size: 32px;
+	font-size: 24px;
 	font-weight: 600;
 	text-transform: uppercase;
 }
 
 h3 {
-	font-size: 19px;
+	font-size: 18px;
 	font-weight: 400;
 }
 
 h4 {
-	font-size: 19px;
+	font-size: 18px;
 	font-weight: 300;
 }
 
@@ -60,4 +60,22 @@ a:hover {
 .quote {
 	font-size: 19px;
 	font-style: italic;
+}
+
+@media (min-width: 640px) {
+	h1 {
+		font-size: 32px;
+	}
+
+	h2 {
+		font-size: 32px;
+	}
+
+	h3 {
+		font-size: 19px;
+	}
+
+	h4 {
+		font-size: 19px;
+	}
 }
