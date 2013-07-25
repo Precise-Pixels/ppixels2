@@ -249,6 +249,15 @@ a .box:hover {
   border-radius: 200px;
 }
 
+.testimonial {
+  width: 69%;
+  padding: 3%;
+}
+
+.testimonial p {
+  font-style: italic;
+}
+
 @media (min-width: 640px) {
   .box-wrapper {
     background: #eeeeee;
@@ -275,6 +284,11 @@ a .box:hover {
   height: 32px;
 }
 
+.icon_small {
+  width: 16px;
+  height: 16px;
+}
+
 .ff .icon {
   background: none;
   font-family: 'Sosa';
@@ -287,35 +301,47 @@ a .box:hover {
   font-size: 32px;
   line-height: 32px;
 }
+.ff .icon_small {
+  font-size: 16px;
+  line-height: 16px;
+}
 
 .icon_about {
-  background-position: center 5px;
+  background-position: center 0;
 }
 
 .icon_work {
-  background-position: center -115px;
+  background-position: center -120px;
 }
 
 .icon_contact {
-  background-position: center -235px;
+  background-position: center -240px;
 }
 
 .icon_left {
-  background-position: center -358px;
+  background-position: center -360px;
 }
 
 .icon_right {
-  background-position: center -390px;
+  background-position: center -392px;
 }
 
 .icon_left_disabled {
-  background-position: center -422px;
+  background-position: center -424px;
 }
 
 .icon_right_disabled {
-  background-position: center -454px;
+  background-position: center -456px;
 }
 
 .icon_link {
-  background-position: center -486px;
+  background-position: center -488px;
+}
+
+.icon_quote_open {
+  background-position: center -520px;
+}
+
+.icon_quote_close {
+  background-position: center -536px;
 }

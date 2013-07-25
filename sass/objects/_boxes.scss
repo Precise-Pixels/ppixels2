@@ -23,6 +23,15 @@ a .box:hover {
 	border-radius: 200px;
 }
 
+.testimonial {
+	width: 69%;
+	padding: 3%;
+}
+
+.testimonial p {
+	font-style: italic;
+}
+
 @media (min-width: 640px) {
 	.box-wrapper {
 		background: $lgrey;
