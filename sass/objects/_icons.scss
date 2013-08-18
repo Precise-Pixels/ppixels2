@@ -1,9 +1,83 @@
 //===ICONS===//
 .icon {
-	font-family: 'Sosa';
-	font-size: 120px;
+	background: url(images/icon-sprite.png) no-repeat;
+	margin: 0 auto;
+	display: block;
+	text-indent: -9999px;
+}
+
+.icon_large {
+	width: 120px;
+	height: 120px;
 }
 
 .icon_medium {
-	font-size: 32px;
+	width: 32px;
+	height: 32px;
+}
+
+.icon_small {
+	width: 16px;
+	height: 16px;
+}
+
+.ff {
+	.icon {
+		background: none;
+		font-family: 'Sosa';
+		font-size: 120px;
+		line-height: 120px;
+		font-weight: 400;
+		text-indent: 0;
+	}
+
+	.icon_medium {
+		font-size: 32px;
+		line-height: 32px;
+	}
+
+	.icon_small {
+		font-size: 16px;
+		line-height: 16px;
+	}
+}
+
+.icon_about {
+	background-position: center 0;
+}
+
+.icon_work {
+	background-position: center -120px;
+}
+
+.icon_contact {
+	background-position: center -240px;
+}
+
+.icon_left {
+	background-position: center -360px;
+}
+
+.icon_right {
+	background-position: center -392px;
+}
+
+.icon_left_disabled {
+	background-position: center -424px;
+}
+
+.icon_right_disabled {
+	background-position: center -456px;
+}
+
+.icon_link {
+	background-position: center -488px;
+}
+
+.icon_quote_open {
+	background-position: center -520px;
+}
+
+.icon_quote_close {
+	background-position: center -536px;
 }

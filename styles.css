@@ -58,7 +58,7 @@ body {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 100;
   text-transform: uppercase;
 }
@@ -68,18 +68,18 @@ h2 {
   padding: 10px;
   display: inline-block;
   color: #FFF;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 600;
   text-transform: uppercase;
 }
 
 h3 {
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 400;
 }
 
 h4 {
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 300;
 }
 
@@ -104,6 +104,23 @@ a:hover {
   font-style: italic;
 }
 
+@media (min-width: 640px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 19px;
+  }
+
+  h4 {
+    font-size: 19px;
+  }
+}
 .half {
   width: 44%;
   padding: 0 3%;
@@ -150,9 +167,14 @@ header {
 
 #logo img {
   width: 100%;
-  max-width: 600px;
+  max-width: 400px;
 }
 
+@media (min-width: 640px) {
+  #logo img {
+    max-width: 600px;
+  }
+}
 footer {
   background: #eeeeee;
   padding: 3%;
@@ -165,26 +187,32 @@ footer p {
 }
 
 #social-links {
-  width: 50px;
+  width: 100px;
   margin: 20px auto 0;
 }
 
 #social-links div {
-  width: 20px;
-  height: 20px;
-  background-image: url(images/social_sprite.png);
-  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
   float: left;
   text-indent: -9999px;
+  background-image: url(images/social-sprite.png);
+}
+@media (-webkit-min-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6 / 2), (min--moz-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+  #social-links div {
+    background-image: url(images/social-sprite_x2.png);
+    background-size: 40px 85px;
+  }
 }
 
 #social-links_facebook {
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 #social-links_github {
-  background-position: 0 20px;
-  margin-left: 5px;
+  background-position: 0 -45px;
+  margin-left: 10px;
 }
 
 .button {
@@ -210,6 +238,11 @@ footer p {
   display: block;
 }
 
+.our-work-link {
+  margin: 3% 0;
+  display: block;
+}
+
 .box-wrapper {
   overflow: hidden;
 }
@@ -221,6 +254,11 @@ footer p {
   padding-top: 12px;
   padding-bottom: 12px;
   color: #222222;
+  -webkit-transition: background-color 0.3s;
+  -moz-transition: background-color 0.3s;
+  -ms-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
 }
 
 a .box:hover {
@@ -233,6 +271,16 @@ a .box:hover {
   border-radius: 200px;
 }
 
+.testimonial {
+  width: 69%;
+  margin-top: 3%;
+  padding: 3%;
+}
+
+.testimonial p {
+  font-style: italic;
+}
+
 @media (min-width: 640px) {
   .box-wrapper {
     background: #eeeeee;
@@ -243,10 +291,115 @@ a .box:hover {
   }
 }
 .icon {
-  font-family: 'Sosa';
-  font-size: 120px;
+  background: url(images/icon-sprite.png) no-repeat;
+  margin: 0 auto;
+  display: block;
+  text-indent: -9999px;
+}
+
+.icon_large {
+  width: 120px;
+  height: 120px;
 }
 
 .icon_medium {
+  width: 32px;
+  height: 32px;
+}
+
+.icon_small {
+  width: 16px;
+  height: 16px;
+}
+
+.ff .icon {
+  background: none;
+  font-family: 'Sosa';
+  font-size: 120px;
+  line-height: 120px;
+  font-weight: 400;
+  text-indent: 0;
+}
+.ff .icon_medium {
   font-size: 32px;
+  line-height: 32px;
+}
+.ff .icon_small {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.icon_about {
+  background-position: center 0;
+}
+
+.icon_work {
+  background-position: center -120px;
+}
+
+.icon_contact {
+  background-position: center -240px;
+}
+
+.icon_left {
+  background-position: center -360px;
+}
+
+.icon_right {
+  background-position: center -392px;
+}
+
+.icon_left_disabled {
+  background-position: center -424px;
+}
+
+.icon_right_disabled {
+  background-position: center -456px;
+}
+
+.icon_link {
+  background-position: center -488px;
+}
+
+.icon_quote_open {
+  background-position: center -520px;
+}
+
+.icon_quote_close {
+  background-position: center -536px;
+}
+
+.table {
+  width: 100%;
+  margin: 20px 0;
+  overflow: hidden;
+}
+
+.table-row {
+  width: 100%;
+  float: left;
+}
+
+.table-cell {
+  width: 100%;
+  float: left;
+  padding: 10px 0;
+}
+
+.table-cell:nth-child(even) {
+  background: #EEE;
+}
+
+@media (min-width: 640px) {
+  .table-cell {
+    width: 50%;
+  }
+
+  .table-row:nth-child(even) {
+    background: #EEE;
+  }
+
+  .table-cell:nth-child(even) {
+    background: none;
+  }
 }

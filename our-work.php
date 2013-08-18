@@ -8,7 +8,7 @@
 
 	<header>
 		<div class="content-wrapper">
-			<span class="icon">7</span>
+			<span class="icon icon_large icon_work">7</span>
 			<h1>Our Work</h1>
 		</div>
 	</header>

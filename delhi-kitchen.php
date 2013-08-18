@@ -8,21 +8,22 @@
 
 	<header>
 		<div class="content-wrapper">
-			<span class="icon">7</span>
+			<span class="icon icon_large icon_work">7</span>
 			<h1>Delhi Kitchen</h1>
 		</div>
 	</header>
 
 	<div class="content-wrapper">
 		<div class="content-section">
-			<img src="images/work/delhi-kitchen-device.png" alt="Delhi Kitchen"/>
-			<h3>Title text</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, facilis, ut, quod sunt commodi aliquid reiciendis aperiam architecto est rerum iure rem quia nesciunt optio sequi eveniet earum ad distinctio?</p>
+			<img src="images/work/delhi-kitchen-device.jpg" alt="Delhi Kitchen"/>
+			<a href="http://precisepixels.co.uk/DelhiKitchen/" target="_blank" class="our-work-link"><div class="icon icon_medium icon_link">ä</div> http://precisepixels.co.uk/DelhiKitchen/</a>
+			<p>An Indian restaurant in Gravesend wanted their menus and contact information displayed on a simple website.</p>
+			<p>They also do a mean Tikka Masala!</p>
 		</div>
 
 		<div class="content-section">
-			<a href="precise-pixels"><div class="button half"><div class="icon icon_medium">‹</div></div></a>
-			<a href="people-united"><div class="button half"><div class="icon icon_medium">›</div></div></a>
+			<a href="precise-pixels"><div class="button half"><div class="icon icon_medium icon_left">‹</div></div></a>
+			<a href="people-united"><div class="button half"><div class="icon icon_medium icon_right">›</div></div></a>
 		</div>
 	</div>
 

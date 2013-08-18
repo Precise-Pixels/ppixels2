@@ -10,6 +10,7 @@
 	padding-top: 12px;
 	padding-bottom: 12px;
 	color: $dgrey;
+	@include transition(background-color);
 }
 
 a .box:hover {
@@ -20,6 +21,16 @@ a .box:hover {
 	width: 100%;
 	max-width: 200px;
 	border-radius: 200px;
+}
+
+.testimonial {
+	width: 69%;
+	margin-top: 3%;
+	padding: 3%;
+}
+
+.testimonial p {
+	font-style: italic;
 }
 
 @media (min-width: 640px) {

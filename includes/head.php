@@ -5,7 +5,7 @@
 <title>Precise Pixels - Kent Web Design</title>
 <link rel="stylesheet" type="text/css" href="styles.css"/>
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700"/>
-<link rel="shortcut icon" href="img/favicon.ico"/>
+<link rel="shortcut icon" href="images/favicon.ico"/>
 <!--[if IE]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
