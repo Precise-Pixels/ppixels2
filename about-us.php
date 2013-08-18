@@ -8,14 +8,14 @@
 
 	<header>
 		<div class="content-wrapper">
-			<span class="icon">Ü</span>
+			<span class="icon icon_large icon_about">Ý</span>
 			<h1>About Us</h1>
 		</div>
 	</header>
 
 	<div class="content-wrapper">
 		<div class="content-section">
-			<h2>The Team</h2>
+			<h2>Team</h2>
 			<h3>Self proclaimed pixel pushers</h3>
 		</div>
 
@@ -43,9 +43,44 @@
 		</div>
 
 		<div class="content-section">
+			<h2>Services</h2>
+			<div class="table">
+			<h3>Web</h3>
+				<div class="table-row">
+					<div class="table-cell">Static web design</div>
+					<div class="table-cell">Responsive (mobile/tablet optimised) web design</div>
+				</div>
+				<div class="table-row">
+					<div class="table-cell">Contact forms</div>
+					<div class="table-cell">Content management system</div>
+				</div>
+				<div class="table-row">
+					<div class="table-cell">Front-end training</div>
+					<div class="table-cell">Maintenance</div>
+				</div>
+				<div class="table-row">
+					<div class="table-cell">Setup of domain</div>
+					<div class="table-cell">Hosting services</div>
+				</div>
+			</div>
+
+			<div class="table">
+			<h3>Other</h3>
+				<div class="table-row">
+					<div class="table-cell">Brand design</div>
+					<div class="table-cell">Marketing design</div>
+				</div>
+				<div class="table-row">
+					<div class="table-cell">Photography</div>
+					<div class="table-cell">3D modelling &amp; animation</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="content-section">
 			<h2>Background</h2>
 			<h3>We are all at the University of Kent studying Multimedia Technology and Design.</h3>
-			<p>For our Interaction Design module, we were put into groups of 4 to re-design an existing website. During this project, the two of us realised that we worked extremely well together. At the end of the project, we were approached by the lecturer who was so impressed by our project that she offered to put us in contact with some paid work!</p>
+			<p>One quiet night in Darwin College, the winds howled through the gap in the window as the keyboards rattled and the code compiled. Precise Pixels was born.</p>
 		</div>
 	</div>
 
