@@ -15,7 +15,7 @@
 
 	<div class="content-wrapper">
 		<div class="content-section">
-			<img src="images/work/peking-restaurant-device.png" alt="Peking Restaurant"/>
+			<img src="images/work/peking-restaurant-device.jpg" alt="Peking Restaurant"/>
 			<a href="http://pekingrestaurantgravesend.co.uk" target="_blank" class="our-work-link"><div class="icon icon_medium icon_link">ä</div> http://pekingrestaurantgravesend.co.uk</a>
 			<h3>Title text</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, facilis, ut, quod sunt commodi aliquid reiciendis aperiam architecto est rerum iure rem quia nesciunt optio sequi eveniet earum ad distinctio?</p>

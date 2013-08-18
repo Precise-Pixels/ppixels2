@@ -15,7 +15,7 @@
 
 	<div class="content-wrapper">
 		<div class="content-section">
-			<img src="images/work/ppixels-device.png" alt="Precise Pixels v2"/>
+			<img src="images/work/precise-pixels-device.jpg" alt="Precise Pixels v2"/>
 			<h3>The second version of the Precise Pixels website</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, facilis, ut, quod sunt commodi aliquid reiciendis aperiam architecto est rerum iure rem quia nesciunt optio sequi eveniet earum ad distinctio?</p>
 		</div>

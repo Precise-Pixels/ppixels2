@@ -15,7 +15,7 @@
 
 	<div class="content-wrapper">
 		<div class="content-section">
-			<img src="images/work/holland-transfer-solutions-device.png" alt="Holland Transfer Solutions"/>
+			<img src="images/work/holland-transfer-solutions-device.jpg" alt="Holland Transfer Solutions"/>
 			<a href="http://taxiholland.com" target="_blank" class="our-work-link"><div class="icon icon_medium icon_link">ä</div> http://taxiholland.com</a>
 			<h3>Title text</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, facilis, ut, quod sunt commodi aliquid reiciendis aperiam architecto est rerum iure rem quia nesciunt optio sequi eveniet earum ad distinctio?</p>

@@ -15,7 +15,7 @@
 
 	<div class="content-wrapper">
 		<div class="content-section">
-			<img src="images/work/delhi-kitchen-device.png" alt="Delhi Kitchen"/>
+			<img src="images/work/delhi-kitchen-device.jpg" alt="Delhi Kitchen"/>
 			<a href="http://precisepixels.co.uk/DelhiKitchen/" target="_blank" class="our-work-link"><div class="icon icon_medium icon_link">ä</div> http://precisepixels.co.uk/DelhiKitchen/</a>
 			<h3>Title text</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, facilis, ut, quod sunt commodi aliquid reiciendis aperiam architecto est rerum iure rem quia nesciunt optio sequi eveniet earum ad distinctio?</p>
