@@ -16,15 +16,14 @@
 
 	<div class="content-wrapper">
 		<div class="content-section" itemscope itemtype="http://www.data-vocabulary.org/Organization/">
-			<h2>Who are we?</h2>
+			<h2>Why hello there</h2>
 			<h3><span itemprop="name">Precise Pixels</span> is a web design company based in <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address"><span itemprop="locality">Canterbury</span>, <span itemprop="region">Kent</span></span>.</h3>
-			<p>'Nitpick' is a word that is heard a lot when we are working on websites. We change things down to the tiniest detail, even something that is only a few pixels askew; hence the name Precise Pixels.</p>
 		</div>
 
 		<div class="content-section">
 			<a href="about-us">
 				<div class="button third">
-					<span>The Team</span>
+					<span>About Us</span>
 					<span class="icon icon_large icon_about">Ý</span>
 				</div>
 			</a>

@@ -16,9 +16,10 @@
 	<div class="content-wrapper">
 		<div class="content-section">
 			<img src="images/work/holland-transfer-solutions-device.jpg" alt="Holland Transfer Solutions"/>
-			<a href="http://taxiholland.com" target="_blank" class="our-work-link"><div class="icon icon_medium icon_link">ä</div> http://taxiholland.com</a>
-			<h3>Title text</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, facilis, ut, quod sunt commodi aliquid reiciendis aperiam architecto est rerum iure rem quia nesciunt optio sequi eveniet earum ad distinctio?</p>
+			<a href="http://taxiholland.com/" target="_blank" class="our-work-link"><div class="icon icon_medium icon_link">ä</div> http://taxiholland.com/</a>
+			<p>Holland Transfer Solutions is an executive taxi service based in the Rotterdam, Amsterdam and The Hague areas of Holland.</p>
+			<p>The client was not happy with their old website and we had some ideas of ways to improve it.</p>
+			<p>We are giving it a new, slick feel ensuring that the professional, executive integrity of Holland Transfer Solutions is reflected in their website.</p>
 		</div>
 
 		<div class="content-section">

@@ -1,0 +1,35 @@
+.table {
+	width: 100%;
+	margin: 20px 0;
+	overflow: hidden;
+}
+
+.table-row {
+	width: 100%;
+	float: left;
+}
+
+.table-cell {
+	width: 100%;
+	float: left;
+	padding: 10px 0;
+}
+
+.table-cell:nth-child(even) {
+	background: #EEE;
+}
+
+
+@media (min-width: 640px) {
+	.table-cell {
+		width: 50%;
+	}
+
+	.table-row:nth-child(even) {
+		background: #EEE;
+	}
+
+	.table-cell:nth-child(even) {
+		background: none;
+	}
+}

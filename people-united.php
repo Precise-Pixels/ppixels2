@@ -16,9 +16,10 @@
 	<div class="content-wrapper">
 		<div class="content-section">
 			<img src="images/work/people-united-device.jpg" alt="People United"/>
-			<a href="http://peopleunited.org.uk" target="_blank" class="our-work-link"><div class="icon icon_medium icon_link">ä</div> http://peopleunited.org.uk</a>
-			<h3>Title text</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, facilis, ut, quod sunt commodi aliquid reiciendis aperiam architecto est rerum iure rem quia nesciunt optio sequi eveniet earum ad distinctio?</p>
+			<a href="http://peopleunited.org.uk/" target="_blank" class="our-work-link"><div class="icon icon_medium icon_link">ä</div> http://peopleunited.org.uk/</a>
+			<p>People United is an Canterbury-based arts charity. We completely redesigned their site, producing a much cleaner layout.</p>
+			<p>The client can easily update their site themselves with a home-built CMS along with a Wordpress blog.</p>
+			<p>A login system provides users with access to particular downloadable content, allowing People United to track popularity of content and maintain a user base.</p>
 			<div class="box testimonial">
 				<span class="icon icon_small icon_quote_open">B</span>
 				<p>Precise Pixels were recommended to us by their course director at the University of Kent. We were in need of specialist help in developing our web site and communications. They have responded quickly to all of our requests for help and performed them in a professional manner. They are clear about their roles and skills and how they complement each other's work, making a great team. With the help of James and Jacob we have significantly improved our web site, upgraded our software to Microsoft Office 2010 and feel more confident about our future communications with our stakeholders.</p>
