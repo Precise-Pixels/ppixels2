@@ -15,9 +15,9 @@
 	</header>
 
 	<div class="content-wrapper">
-		<div class="content-section">
+		<div class="content-section" itemscope itemtype="http://www.data-vocabulary.org/Organization/">
 			<h2>Who are we?</h2>
-			<h3>Precise Pixels is a web design company based in Canterbury, Kent.</h3>
+			<h3><span itemprop="name">Precise Pixels</span> is a web design company based in <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address"><span itemprop="locality">Canterbury</span>, <span itemprop="region">Kent</span></span>.</h3>
 			<p>'Nitpick' is a word that is heard a lot when we are working on websites. We change things down to the tiniest detail, even something that is only a few pixels askew; hence the name Precise Pixels.</p>
 		</div>
 
