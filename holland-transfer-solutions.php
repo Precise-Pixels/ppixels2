@@ -7,10 +7,8 @@
 	<?php include("includes/nav.php"); ?>
 
 	<header>
-		<div class="content-wrapper">
-			<span class="icon icon_large icon_work">7</span>
-			<h1>Holland Transfer Solutions</h1>
-		</div>
+		<span class="icon icon_large icon_work">7</span>
+		<h1>Holland Transfer Solutions</h1>
 	</header>
 
 	<div class="content-wrapper">

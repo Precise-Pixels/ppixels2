@@ -7,10 +7,8 @@
 	<?php include("includes/nav.php"); ?>
 
 	<header>
-		<div class="content-wrapper">
-			<span class="icon icon_large icon_about">Ý</span>
-			<h1>About Us</h1>
-		</div>
+		<span class="icon icon_large icon_about">Ý</span>
+		<h1>About Us</h1>
 	</header>
 
 	<div class="content-wrapper">
@@ -65,7 +63,7 @@
 			</div>
 
 			<div class="table">
-			<h3>Other</h3>
+				<h3>Other</h3>
 				<div class="table-row">
 					<div class="table-cell">Brand design</div>
 					<div class="table-cell">Marketing design</div>

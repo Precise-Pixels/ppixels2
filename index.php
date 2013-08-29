@@ -7,11 +7,9 @@
 	<?php include("includes/nav.php"); ?>
 
 	<header>
-		<div class="content-wrapper">
-			<h1>We are</h1>
-			<div id="logo"><img src="images/logo.png" alt="Precise Pixels"></div>
-			<h1>We pride ourselves on creating websites that are functional, intuitive and beautiful.</h1>
-		</div>
+		<h1>We are</h1>
+		<div id="logo"><img src="images/logo.png" alt="Precise Pixels"></div>
+		<h1>We pride ourselves on creating websites that are functional, intuitive and beautiful.</h1>
 	</header>
 
 	<div class="content-wrapper">

@@ -1,12 +1,17 @@
 //===HEADER===//
 header {
 	width: 94%;
+	height: 200px;
 	background: #1E2024 url(images/bg.jpg);
 	background-size: cover;
-	padding: 8% 3% 6%;
-	clear: both;
-	overflow: hidden;
+	padding: 50px 3% 50px;
+	position: fixed;
+	top: 90px;
 	color: #FFF;
+}
+
+.index header {
+	height: 370px;
 }
 
 #logo img {
@@ -15,6 +20,15 @@ header {
 }
 
 @media (min-width: 640px) {
+	header {
+		padding: 100px 3% 100px;
+		top: 45px;
+	}
+
+	.index header {
+		height: 500px;
+	}
+
 	#logo img {
 		max-width: 600px;
 	}

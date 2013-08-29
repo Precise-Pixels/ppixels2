@@ -2,6 +2,8 @@
 footer {
 	background: $lgrey;
 	padding: 3%;
+	position: relative;
+	z-index: 3;
 	clear: both;
 	overflow: hidden;
 }

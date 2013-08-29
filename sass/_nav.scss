@@ -1,5 +1,9 @@
 //===NAV===//
 nav {
+	width: 100%;
 	background: $blue;
+	position: fixed;
+	top: 0;
+	z-index: 3;
 	overflow: hidden;
 }

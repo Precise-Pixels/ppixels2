@@ -7,10 +7,8 @@
 	<?php include("includes/nav.php"); ?>
 
 	<header>
-		<div class="content-wrapper">
-			<span class="icon icon_large icon_contact">h</span>
-			<h1>Contact Us</h1>
-		</div>
+		<span class="icon icon_large icon_contact">h</span>
+		<h1>Contact Us</h1>
 	</header>
 
 	<div class="content-wrapper">

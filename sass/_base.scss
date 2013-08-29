@@ -25,14 +25,21 @@ img {
 }
 
 .content-wrapper {
-	max-width: 1200px;
-	margin: 0 auto;
+	background: #FFF;
+	margin-top: 390px;
 	padding: 3%;
+	position: relative;
+	z-index: 2;
 	overflow: hidden;
 }
 
+.index .content-wrapper {
+	margin-top: 560px;
+}
+
 .content-section {
-	margin-bottom: 3%;
+	max-width: 1200px;
+	margin: 0 auto 3%;
 	overflow: hidden;
 }
 
@@ -41,6 +48,14 @@ img {
 }
 
 @media (min-width: 640px) {
+	.content-wrapper {
+		margin-top: 445px;
+	}
+
+	.index .content-wrapper {
+		margin-top: 745px;
+	}
+
 	.content-section img {
 		width: 65%;
 	}

@@ -24,14 +24,21 @@ img {
 }
 
 .content-wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
+  background: #FFF;
+  margin-top: 390px;
   padding: 3%;
+  position: relative;
+  z-index: 2;
   overflow: hidden;
 }
 
+.index .content-wrapper {
+  margin-top: 560px;
+}
+
 .content-section {
-  margin-bottom: 3%;
+  max-width: 1200px;
+  margin: 0 auto 3%;
   overflow: hidden;
 }
 
@@ -40,6 +47,14 @@ img {
 }
 
 @media (min-width: 640px) {
+  .content-wrapper {
+    margin-top: 445px;
+  }
+
+  .index .content-wrapper {
+    margin-top: 745px;
+  }
+
   .content-section img {
     width: 65%;
   }
@@ -151,18 +166,27 @@ a:hover {
   }
 }
 nav {
+  width: 100%;
   background: #98dce2;
+  position: fixed;
+  top: 0;
+  z-index: 3;
   overflow: hidden;
 }
 
 header {
   width: 94%;
+  height: 200px;
   background: #1e2024 url(images/bg.jpg);
   background-size: cover;
-  padding: 8% 3% 6%;
-  clear: both;
-  overflow: hidden;
+  padding: 50px 3% 50px;
+  position: fixed;
+  top: 90px;
   color: #FFF;
+}
+
+.index header {
+  height: 370px;
 }
 
 #logo img {
@@ -171,6 +195,15 @@ header {
 }
 
 @media (min-width: 640px) {
+  header {
+    padding: 100px 3% 100px;
+    top: 45px;
+  }
+
+  .index header {
+    height: 500px;
+  }
+
   #logo img {
     max-width: 600px;
   }
@@ -178,6 +211,8 @@ header {
 footer {
   background: #eeeeee;
   padding: 3%;
+  position: relative;
+  z-index: 3;
   clear: both;
   overflow: hidden;
 }
