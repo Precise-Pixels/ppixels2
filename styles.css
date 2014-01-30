@@ -186,6 +186,12 @@ footer p {
   margin-top: 0;
 }
 
+#facebook-like-button {
+  width: 81px;
+  height: 21px;
+  border: none;
+}
+
 #social-links {
   width: 100px;
   margin: 20px auto 0;
