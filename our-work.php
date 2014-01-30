@@ -21,6 +21,12 @@
 
 		<div class="content-section">
 			<div class="box-wrapper">
+				<a href="peter-batten">
+					<div class="box third">
+						<h4>Peter Batten</h4>
+						<img src="images/thumbs/peter-batten.jpg" alt="Peter Batten" class="thumb"/>
+					</div>
+				</a>
 				<a href="precise-pixels">
 					<div class="box third">
 						<h4>Precise Pixels v2</h4>

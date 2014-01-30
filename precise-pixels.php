@@ -22,7 +22,7 @@
 		</div>
 
 		<div class="content-section">
-			<div class="box half"><div class="icon icon_medium icon_left_disabled">‹</div></div>
+			<a href="peter-batten"><div class="button half"><div class="icon icon_medium icon_left">‹</div></div></a>
 			<a href="delhi-kitchen"><div class="button half"><div class="icon icon_medium icon_right">›</div></div></a>
 		</div>
 	</div>
