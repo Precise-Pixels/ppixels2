@@ -23,19 +23,19 @@
 			<div class="box-wrapper">
 				<div class="box third">
 					<h4>Jacob</h4>
-					<img src="images/jacob.jpg" alt="Jacob" class="thumb"/>
+					<div id="jacob" class="thumb"></div>
 					<p>Co-Founder / Designer</p>
 					<p class="quote">"I feel like sonic running into a black hole."</p>
 				</div>
 				<div class="box third">
 					<h4>James</h4>
-					<img src="images/james.jpg" alt="James" class="thumb"/>
+					<div id="james" class="thumb"></div>
 					<p>Co-Founder / Developer</p>
 					<p class="quote">"I like chicken."</p>
 				</div>
 				<div class="box third">
 					<h4>Joe</h4>
-					<img src="images/joe.jpg" alt="Joe" class="thumb"/>
+					<div id="joseph" class="thumb"></div>
 					<p>Designer</p>
 					<p class="quote">"He's blowing up like a balloon with a grenade in it!"</p>
 				</div>

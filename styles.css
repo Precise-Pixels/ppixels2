@@ -273,8 +273,42 @@ a .box:hover {
 
 .thumb {
   width: 100%;
-  max-width: 200px;
-  border-radius: 200px;
+  height: 0;
+  padding-bottom: 100%;
+  border-radius: 50%;
+}
+
+#jacob {
+  background: url(images/jacob-1.jpg);
+}
+
+#james {
+  background: url(images/james-1.jpg);
+}
+
+#joseph {
+  background: url(images/joseph-1.jpg);
+}
+
+#jacob:hover {
+  background: url(images/jacob-2.jpg);
+}
+
+#james:hover {
+  background: url(images/james-2.jpg);
+}
+
+#joseph:hover {
+  background: url(images/joseph-2.jpg);
+}
+
+#jacob,
+#james,
+#joseph,
+#jacob:hover,
+#james:hover,
+#joseph:hover {
+  background-size: cover;
 }
 
 .testimonial {
