@@ -20,6 +20,7 @@ a .box:hover {
 .thumb {
 	width: 100%;
 	height: 0;
+	background-size: cover;
 	padding-bottom: 100%;
 	border-radius: 50%;
 }
@@ -51,6 +52,30 @@ a .box:hover {
 	background-size: cover;
 }
 
+#thumb_peter-batten {
+	background-image: url(images/thumbs/peter-batten.jpg);
+}
+
+#thumb_precise-pixels {
+	background-image: url(images/thumbs/precise-pixels.jpg);
+}
+
+#thumb_delhi-kitchen {
+	background-image: url(images/thumbs/delhi-kitchen.jpg);
+}
+
+#thumb_people-united {
+	background-image: url(images/thumbs/people-united.jpg);
+}
+
+#thumb_holland-transfer-solutions {
+	background-image: url(images/thumbs/holland-transfer-solutions.jpg);
+}
+
+#thumb_peking-restaurant {
+	background-image: url(images/thumbs/peking-restaurant.jpg);
+}
+
 .testimonial {
 	width: 69%;
 	margin-top: 3%;
@@ -68,5 +93,9 @@ a .box:hover {
 
 	.box {
 		margin-bottom: 0;
+	}
+
+	.content-section .thumb {
+		width: 100%;
 	}
 }

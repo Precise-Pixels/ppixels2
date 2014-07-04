@@ -24,37 +24,37 @@
 				<a href="peter-batten">
 					<div class="box third">
 						<h4>Peter Batten</h4>
-						<img src="images/thumbs/peter-batten.jpg" alt="Peter Batten" class="thumb"/>
+						<div id="thumb_peter-batten" class="thumb"></div>
 					</div>
 				</a>
 				<a href="precise-pixels">
 					<div class="box third">
 						<h4>Precise Pixels v2</h4>
-						<img src="images/thumbs/precise-pixels.jpg" alt="Precise Pixels v2<" class="thumb"/>
+						<div id="thumb_precise-pixels" class="thumb"></div>
 					</div>
 				</a>
 				<a href="delhi-kitchen">
 					<div class="box third">
 						<h4>Delhi Kitchen</h4>
-						<img src="images/thumbs/delhi-kitchen.jpg" alt="Delhi Kitchen" class="thumb"/>
+						<div id="thumb_delhi-kitchen" class="thumb"></div>
 					</div>
 				</a>
 				<a href="people-united">
 					<div class="box third">
 						<h4>People United</h4>
-						<img src="images/thumbs/people-united.jpg" alt="People United" class="thumb"/>
+						<div id="thumb_people-united" class="thumb"></div>
 					</div>
 				</a>
 				<a href="holland-transfer-solutions">
 					<div class="box third">
 						<h4>Holland Transfer Solutions</h4>
-						<img src="images/thumbs/holland-transfer-solutions.jpg" alt="Holland Transfer Solutions" class="thumb"/>
+						<div id="thumb_holland-transfer-solutions" class="thumb"></div>
 					</div>
 				</a>
 				<a href="peking-restaurant">
 					<div class="box third">
 						<h4>Peking Restaurant</h4>
-						<img src="images/thumbs/peking-restaurant.jpg" alt="Peking Restaurant" class="thumb"/>
+						<div id="thumb_peking-restaurant" class="thumb"></div>
 					</div>
 				</a>
 			</div>
