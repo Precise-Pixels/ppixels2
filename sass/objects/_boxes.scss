@@ -25,27 +25,21 @@ a .box:hover {
 }
 
 #jacob {
-	background: url(images/jacob-1.jpg);
+	background: url(images/jacob.jpg);
 }
 
 #james {
-	background: url(images/james-1.jpg);
+	background: url(images/james.jpg);
 }
 
 #joseph {
-	background: url(images/joseph-1.jpg);
+	background: url(images/joseph.jpg);
 }
 
-#jacob:hover {
-	background: url(images/jacob-2.jpg);
-}
-
-#james:hover {
-	background: url(images/james-2.jpg);
-}
-
+#jacob:hover,
+#james:hover,
 #joseph:hover {
-	background: url(images/joseph-2.jpg);
+	background-position: bottom;
 }
 
 #jacob,
